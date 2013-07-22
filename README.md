@@ -24,7 +24,8 @@ Vaikka sinulla ei olisikaan WordPressiä, voit silti käyttää osaa tämän lis
 1. Lataa koko lisäosa klikkaamalla 'Download ZIP' tuosta vierestä oikealta ja tallenna se työpöydälle
 2. Siirrä tokiri.js tiedosto palvelimelle
 3. Lisää sivustosi koodissa <head> tagien sisään seuraava koodi
-```<script type="text/javascript" src="polku/sinne/missä/tokiri.js/on" charset="UTF-8"></script>
+```<script type="text/javascript" src="polku/sinne/missä/tokiri.js/on" charset="UTF-8">
+</script>
 <script>
 copyrightCampaign({ });
 </script>```
