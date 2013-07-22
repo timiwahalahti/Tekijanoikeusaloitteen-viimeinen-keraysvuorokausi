@@ -2,7 +2,9 @@ Tekijänoikeusaloitteen viimeinen keräysvuorokausi
 ====================================
 Allekirjoituksia on paljon mutta lisää tarvitaan!
 
-Tämä on WordPress lisäosa jonka asentamalla osallistut Tekijänoikeusaloitteen loppukiriin. Kannatusten viimeinen keräyspäivä on 23.7. ja tällä hetkellä olemme keränneet suurimman osan tarvittavista kannatuksista mutta kaipaamme loppujen keräämisessä apua. Voit asentaa ja aktivoida lisäosan jo nyt sillä koodi tulee käyttöön vasta viimeisenä keräyspäivänä (23.7.). Sivustosi kävijöille näytetään viimeisenä keräyspäivänä 23.7. viesti jossa kehoitetaan allekirjoittamaan Järkeä tekijänoikeuslakiin kansalaisaloite. Lisäosa käyttää SC5:en tekemää jQuery-koodia.
+Tämä on WordPress lisäosa jonka asentamalla osallistut Tekijänoikeusaloitteen loppukiriin. Jos sinulla ei ole WordPressiä voit silti osallistua loppukiriin käyttämällä osaa tästä koodista, lue ohjeet alempaa.
+
+Kannatusten viimeinen keräyspäivä on 23.7. ja tällä hetkellä olemme keränneet suurimman osan tarvittavista kannatuksista mutta kaipaamme loppujen keräämisessä apua. Voit asentaa ja aktivoida lisäosan jo nyt sillä koodi tulee käyttöön vasta viimeisenä keräyspäivänä (23.7.). Sivustosi kävijöille näytetään viimeisenä keräyspäivänä 23.7. viesti jossa kehoitetaan allekirjoittamaan Järkeä tekijänoikeuslakiin kansalaisaloite. Lisäosa käyttää SC5:en tekemää jQuery-koodia.
 
 Alkuperäinen koodi: https://github.com/SC5/copyright-campaign ja esimerkki toiminnasta: http://sc5.github.com/copyright-campaign
 
@@ -15,7 +17,22 @@ Asennus
 5. Aktivoi lisäosa
 6. Se oli sitten siinä, kiitos kun osallistut!
 
-Kustomointi
+Asennus jos ei ole WordPressiä
+---------------------
+Vaikka sinulla ei olisikaan WordPressiä, voit silti käyttää osaa tämän lisäosan koodista ja osallistua loppukiriin.
+
+1. Lataa koko lisäosa klikkaamalla 'Download ZIP' tuosta vierestä oikealta ja tallenna se työpöydälle
+2. Siirrä tokiri.js tiedosto palvelimelle
+3. Lisää sivustosi koodissa <head> tagien sisään seuraava koodi
+```<script type="text/javascript" src="polku/sinne/missä/tokiri.js/on" charset="UTF-8"></script>
+<script>
+copyrightCampaign({ });
+</script>```
+4. Se oli sitten siinä, kiitos kun osallistut!
+
+Jos haluat kustamoida viestiä tai toimintaa, katso ohjeita täältä: https://github.com/SC5/copyright-campaign
+
+Kustomointi WordPressissä
 ---------------------
 Koska alkuperäinen SC5:en koodi tarjoaa mahdollisuuden toiminnallisuuden ja viestin kustomointiin, onnistuu se myös tässä lisäosassa.
 
