@@ -26,9 +26,9 @@ Vaikka sinulla ei olisikaan WordPressiä, voit silti käyttää osaa tämän lis
 3. Lisää sivustosi koodissa <head> tagien sisään seuraava koodi
 ```<script type="text/javascript" src="polku/sinne/missä/tokiri.js/on" charset="UTF-8">
 </script>
-<script>
-copyrightCampaign({ });
-</script>```
+```
+```
+<script>copyrightCampaign({ });</script>```
 4. Se oli sitten siinä, kiitos kun osallistut!
 
 Jos haluat kustamoida viestiä tai toimintaa, katso ohjeita täältä: https://github.com/SC5/copyright-campaign
